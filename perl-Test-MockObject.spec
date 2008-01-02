@@ -20,6 +20,7 @@ BuildRequires:  perl(Test::Warn)
 BuildRequires:  perl(Test::Exception)
 BuildRequires:  perl(CGI)
 BuildArch:      noarch
+BuildRoot:      %{_tmppath}/%{name}-%{version}
 
 %description 
 It's a simple program that doesn't use any other modules, and those are easy to
