@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstre
 BuildRequires:  perl(UNIVERSAL::isa)
 BuildRequires:  perl(UNIVERSAL::can)
 BuildRequires:  perl(Test::Warn) >= 0.230
+BuildRequires:  perl(Test::More) >= 0.980
 BuildRequires:  perl(Test::Exception)
 BuildRequires:  perl(CGI)
 BuildArch:      noarch
