@@ -1,5 +1,5 @@
 %define upstream_name    Test-MockObject
-%define upstream_version 1.09
+%define upstream_version 1.20110612
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -9,14 +9,10 @@ Summary:    Perl extension for emulating troublesome interfaces
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.bz2
-
-%if %{mdkversion} < 1010
-BuildRequires:  perl-devel
-%endif
+Source0:    http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
 BuildRequires:  perl(UNIVERSAL::isa)
 BuildRequires:  perl(UNIVERSAL::can)
-BuildRequires:  perl(Test::Warn)
+BuildRequires:  perl(Test::Warn) >= 0.230
 BuildRequires:  perl(Test::Exception)
 BuildRequires:  perl(CGI)
 BuildArch:      noarch
