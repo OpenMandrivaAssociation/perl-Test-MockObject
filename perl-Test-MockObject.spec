@@ -1,15 +1,15 @@
 %define upstream_name    Test-MockObject
-%define upstream_version 1.20110612
+%define upstream_version 1.20120301
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 1.20120301
+Release:	1
 
 Summary:	Perl extension for emulating troublesome interfaces
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Test/Test-MockObject-1.20120301.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(UNIVERSAL::isa)
@@ -129,4 +129,5 @@ make test
 
 * Mon Sep 13 2004 Guillaume Rousse <guillomovitch@mandrake.org> 0.14-1mdk 
 - first mdk release
+
 

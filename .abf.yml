@@ -1,2 +1,4 @@
+removed_sources:
+  Test-MockObject-1.20110612.tar.gz: c869b5f9efc8cac9c03ee987eb3124d9d0a3c98b
 sources:
-  "Test-MockObject-1.20110612.tar.gz": c869b5f9efc8cac9c03ee987eb3124d9d0a3c98b
+  Test-MockObject-1.20120301.tar.gz: c9721a9a9665dd35522ed1587dc10d3a08826852
