@@ -1,11 +1,12 @@
 %define upstream_name    Test-MockObject
-%define upstream_version 1.20140328
+%define upstream_version 1.20140408
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	Perl extension for emulating troublesome interfaces
+
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
@@ -51,6 +52,7 @@ make test
 %doc Changes README
 %{perl_vendorlib}/Test
 %{_mandir}/*/*
+
 
 
 

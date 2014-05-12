@@ -1,5 +1,6 @@
 removed_sources:
   Test-MockObject-1.20110612.tar.gz: c869b5f9efc8cac9c03ee987eb3124d9d0a3c98b
   Test-MockObject-1.20120301.tar.gz: c9721a9a9665dd35522ed1587dc10d3a08826852
-sources:
   Test-MockObject-1.20140328.tar.gz: 40bdc1a368a0665830bb9c65a9308ca54fc4a7f4
+sources:
+  Test-MockObject-1.20140408.tar.gz: 0e14839447d7cdb89d7027d767a172eb1c786c7d
