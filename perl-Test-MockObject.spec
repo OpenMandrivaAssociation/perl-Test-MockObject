@@ -1,17 +1,17 @@
 %define upstream_name    Test-MockObject
-%define upstream_version 1.20140408
+%define upstream_version 1.20200122
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Perl extension for emulating troublesome interfaces
 
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Test/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/chromatic/Test-MockObject
+Source0:	https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
