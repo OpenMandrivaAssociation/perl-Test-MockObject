@@ -1,9 +1,7 @@
 %define upstream_name    Test-MockObject
-%define upstream_version 1.20200122
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	1.20200122
+Release:	2
 
 Summary:	Perl extension for emulating troublesome interfaces
 
@@ -11,7 +9,7 @@ Summary:	Perl extension for emulating troublesome interfaces
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/chromatic/Test-MockObject
-Source0:	https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/C/CH/CHROMATIC/Test-MockObject-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -37,7 +35,7 @@ interfaces with very little code. You don't have to reimplement the behavior,
 just the input and the output.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
